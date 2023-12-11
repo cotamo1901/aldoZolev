@@ -1,0 +1,27 @@
+:root{
+    --background-header:#BF988A;
+    --background:#F2E8D5;
+
+
+    /* text styles*/
+
+    --primary-text:#592D23;
+    --secondary-text:#BF5D54;
+    --background-title:white;
+}
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  html {
+    /*Con este font-size, hacemos que 1rem sea igual  a 10px */
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+  }
+
+body{
+    background:var(--background);
+    -webkit-font-smoothing: antialiased;
+}
