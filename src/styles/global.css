@@ -1,3 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap');
+
+
+
 :root{
     --background-header:#BF988A;
     --background:#F2E8D5;
@@ -8,6 +13,7 @@
     --primary-text:#592D23;
     --secondary-text:#BF5D54;
     --background-title:white;
+    --text-font:'Oswald', sans-serif;
 }
 
 * {

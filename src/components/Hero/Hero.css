@@ -1,25 +1,38 @@
-.hero{
+/* Add this to your existing CSS */
+
+/* Hero section styles */
+.hero {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 30px;
-}
-
-
-.img-container img {
-
-    width: 424px;
+    padding: 60px;
+    font-family: var(--text-font);
+  }
+  
+  /* Hero container styles */
+  .hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  /* Image container styles */
+  .img-container img {
+    width: 740px;
     height: auto;
     object-fit: cover;
     object-position: center;
-    border:  13px solid white;
-    outline:  1px solid rgb(219, 216, 216);
+    border: 13px solid white;
+    outline: 1px solid rgb(219, 216, 216);
     margin: 8px;
     transform: rotate(-5deg);
-    
-}
-
-.img-container p{
+  }
+  .img-container {
+    text-align: right;
+  }
+  
+  .img-container p {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,4 +41,50 @@
     font-weight: 900;
     font-size: 2.6rem;
     margin-top: 0.6rem;
-}
+  }
+  
+  /* Hero contador styles */
+  .hero-contador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f3f0f0;
+    border-radius: 18px;
+    width: auto;
+    height: 418px;
+    
+  }
+
+  .hero-title{
+    font-size: 60px;
+    color: var(--primary-text);
+    
+
+  }
+  
+  /* Button styles */
+  .hero-contador button {
+    margin-top: 20px;
+  }
+  
+  /* Media query for mobile view */
+  @media only screen and (max-width: 768px) {
+    .hero {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .hero-container {
+      flex-direction: column;
+    }
+  
+    .img-container {
+      text-align: center;
+    }
+  
+    .img-container img {
+      width: 100%;
+    }
+  }
+  
